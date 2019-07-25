@@ -19,6 +19,7 @@ namespace InterfaceConsole
             var fs = input.Open(FileMode.Open);
             var sr = new StreamReader(fs);
 
+            // TODO: 아래 for 반복문은 문제에 맞게 적절하게 변형되어야 합니다.
             for (var i = 0; i < 3; i++)
             {
                 solver.Data = int.Parse(sr.ReadLine());
